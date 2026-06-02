@@ -233,3 +233,55 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Data (IMPORTANT)
+data/
+litratures/
+literatures/
+models/
+
+# Omics / Bioinformatics
+*.gctx
+*.gct
+*.h5
+*.hdf5
+
+# Cell Painting
+*.parquet
+*.tif
+*.tiff
+
+# Literature
+*.pdf
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.7z
+*.rar
+
+# Trained Models
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
